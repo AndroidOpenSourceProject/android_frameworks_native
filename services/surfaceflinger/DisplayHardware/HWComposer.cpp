@@ -508,6 +508,7 @@ void HWComposer::eventControl(int disp, int event, int enabled) {
     if (err == NO_ERROR && mVSyncThread != NULL) {
         mVSyncThread->setEnabled(enabled);
     }
+
 }
 
 status_t HWComposer::createWorkList(int32_t id, size_t numLayers) {
